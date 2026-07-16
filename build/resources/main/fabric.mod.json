@@ -6,7 +6,11 @@
   "icon": "assets/icon.png",
   "description": "API for reading server RPG stats from Boss Bar",
   "authors": ["Moyuans"],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/Moo-yuan/BlockLegend-RPG-API",
+    "sources": "https://github.com/Moo-yuan/BlockLegend-RPG-API",
+    "issues": "https://github.com/Moo-yuan/BlockLegend-RPG-API/issues"
+  },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
