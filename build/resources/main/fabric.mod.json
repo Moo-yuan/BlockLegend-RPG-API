@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "blocklegend-rpg-api",
+  "version": "1.0.0",
+  "name": "BlockLegend RPG API",
+  "icon": "assets/icon.png",
+  "description": "API for reading server RPG stats from Boss Bar",
+  "authors": ["Moyuans"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.moyuans.blocklegend.rpgapi.BlockLegendRPGAPI"
+    ],
+    "modmenu": [
+      "com.moyuans.blocklegend.rpgapi.config.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=3.3.2",
+    "modmenu": ">=9.0.0"
+  }
+}
